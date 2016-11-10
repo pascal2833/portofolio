@@ -1,0 +1,343 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url(http://weloveiconfonts.com/api/?family=brandico|fontawesome);
+
+
+// --- Breakpoints : ---- //
+$breakpoint1: 480px;
+$breakpoint2: 768px;
+$breakpoint2b: 800px;
+$breakpoint3: 1200px;
+$breakpoint3b: 1550px;
+
+// -- Colors : ---- //
+$color-titles-text: rgb(69,71,74);
+$color-text-sections: rgb(89,90,95);
+$backgroundcolor-social-links: rgb(232,129,7);
+$separator-color: rgb(68,61,58);
+$footer-background-color: rgb(56,45,45);
+$footer-text-color: rgb(154,141,129);
+$color-text-links: rgb(191,167,122);
+$color-border-img: rgb(53,46,43);
+
+// ----------------------------------- //
+// --- Commun to all viewports : ----- //
+// ----------------------------------- //
+*, *:before, *:after {
+	/* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+	-webkit-box-sizing: border-box;
+	/* Firefox (desktop or Android) 28- */
+	-moz-box-sizing: border-box;
+	/* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+[class*="zocial-"]:before {
+	font-family: 'zocial', sans-serif;
+}
+[class*="brandico-"]:before {
+	font-family: 'brandico', sans-serif;
+}
+/* fontawesome */
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+// -- For all : --- //
+.container {
+	.separator {
+		background-color: $separator-color;
+		height: 1px;
+		width: 20vw;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+	}
+	img {
+		width: 100%;
+	}
+	.who-i-am {
+		text-align: center;
+		#svg4607 {
+			position: absolute;
+			width: 40vw;
+			left: 30vw;
+			top: -6px;
+		}
+		.my-name-and-coe {
+			position: absolute;
+			width: 40vw;// Permet de centrer sans que le svg s'escale quand on chge taille viewport (le cas si %).
+			left: 30vw;
+			color: white;
+			top: 66px;
+			&.and-coe {
+			}
+			&.h2 {
+				margin-top: 8px;
+			}
+		}
+	}
+	.my-projects {
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 25px;
+		.text-in-section {
+			color: $color-text-sections;
+			max-width: 700px;
+			margin-left: auto;
+			margin-right: auto;
+			font-weight: normal;
+			.p {
+				margin-top: 2px;
+				margin-bottom: 2px;
+				.links {
+					color: $color-text-links;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+		.descrip-and-projects {
+			color: $color-titles-text;
+		}
+		.projects-list {
+			.projects-images {
+				max-width: 372px;
+				margin-left: auto;
+				margin-right: auto;
+				position: relative;// Pour pouvoir placer par dessus et donc en position absolute l'info quand hover sur img.
+				// Transition :
+				-webkit-transition:  -webkit-transform 0.5s;
+				-moz-transition: -moz-transform 0.5s;
+				-o-transition: -o-transform 0.5s;
+				transition: transform 0.5s;
+				&:hover {
+					-webkit-transform: scale(1.05);
+					-moz-transform: scale(1.05);
+					transform: scale(1.05);
+					.figcaption-img-project {
+						display: block;
+					}
+				}
+				img {
+					border: solid 1px $color-border-img;
+					max-width: 370px;
+				}
+				.figcaption-img-project {
+					display: none;
+					background-color: rgba(76,73,72,0.85);
+					color: white;
+					height: calc(100% - 6px);
+					left: 0px;
+					position: absolute;
+					top: 0px;
+					width: 100%;
+					.text-fig-caption {
+						position: relative;
+						top: 20px;
+						margin-left: auto;
+						margin-right: auto;
+						font-size: 1.15em;
+					}
+				}
+			}
+		}
+
+	}
+	.social-links {
+		background-color: $backgroundcolor-social-links;
+		text-align: center;
+		.text-4-social-links {
+			margin-top: -16px;
+			margin-bottom: 5px;
+		}
+		.social-icons {
+			cursor: pointer;
+			color: black;
+			margin: 20px;
+			&:hover {
+				color: red;
+			}
+		}
+	}
+	.footer {
+		height: 50px;
+		background-color: $footer-background-color;
+		font-size: 0.85em;
+		color: $footer-text-color;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+// ---- For mobiles : ------ //
+@media screen and (max-width: $breakpoint1) {
+	.who-i-am {
+		.my-name-and-coe {
+			&.h2 {
+				font-size: 1.2em;
+				line-height: 19px;
+			}
+			&.and-coe {
+				margin-top: 30px;
+				font-size: 0.95em;
+				line-height: 16px;
+			}
+		}
+	}
+	.descrip-and-projects {
+		&.title {
+			font-size: 1.25em;
+		}
+		.text-in-section {
+			font-size: 1.1em;
+		}
+
+	}
+	.my-projects-list {
+	}
+	.footer {
+	}
+}
+
+// For tablets : ------------ //
+@media screen and (min-width: $breakpoint1+1) and (max-width: $breakpoint2) {
+	.who-i-am {
+		.my-name-and-coe {
+			&.h2 {
+				font-size: 1.3em;
+			}
+			&.and-coe {
+				margin-top: 35px;
+				font-size: 1.05em;
+				line-height: 19px;
+			}
+		}
+	}
+	.descrip-and-projects {
+		&.title {
+			font-size: 1.4em;
+		}
+		.text-in-section {
+			font-size: 1.2em;
+		}
+	}
+	.my-projects-list {
+	}
+	.footer {
+	}
+}
+
+// For desktops : ---------- //
+@media screen and (min-width: $breakpoint2+1) and (max-width: $breakpoint3) {
+	.who-i-am {
+		.my-name-and-coe {
+			&.h2 {
+				font-size: 1.5em;
+			}
+			&.and-coe {
+				margin-top: 38px;
+				font-size: 1.25em;
+				line-height: 19px;
+			}
+		}
+	}
+	.descrip-and-projects {
+		&.title {
+			font-size: 1.5em;
+		}
+		.text-in-section {
+			font-size: 1.3em;
+		}
+	}
+	.my-projects-list {
+	}
+	.footer {
+	}
+}
+
+// For big desktops : ------ //
+@media screen and (min-width: $breakpoint3+1) {
+	.who-i-am {
+		.my-name-and-coe {
+			&.h2 {
+				font-size: 1.9em;
+			}
+			&.and-coe {
+				margin-top: 55px;
+				font-size: 1.55em;
+				line-height: 19px;
+			}
+		}
+	}
+	.descrip-and-projects {
+		&.title {
+			font-size: 1.65em;
+		}
+		.text-in-section {
+			font-size: 1.4em;
+		}
+	}
+	.my-projects-list {
+	}
+	.footer {
+	}
+}
+
+// ------ Gestion des images/ my projects : ------- //
+@media screen and (min-width: $breakpoint2b) and (max-width: $breakpoint3b){
+	.projects-list {
+		.img-project-container1, .img-project-container2 {
+			display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+			display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+			display: -ms-flexbox;      /* TWEENER - IE 10 */
+			display: -webkit-flex;     /* NEW - Chrome */
+			display: flex;
+			justify-content: center;
+			.projects-images {
+				margin-left: 20px!important;
+				margin-right: 20px!important;
+			}
+		}
+
+	}
+}
+
+@media screen and (min-width: $breakpoint3b + 1) {
+	.img-project-container {
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex;
+		justify-content: center;
+		.img-project-container1, .img-project-container2 {
+			display: inline-flex;
+			.projects-images {
+				margin-left: 20px!important;
+				margin-right: 20px!important;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
