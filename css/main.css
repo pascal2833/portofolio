@@ -1,271 +1,277 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @import url(http://weloveiconfonts.com/api/?family=brandico|fontawesome);
+
+.fa-envelope-o:before, .fa-github:before {
+	margin-right: 40px;
+}
+
+
 /* line 25, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 *, *:before, *:after {
-  /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
-  -webkit-box-sizing: border-box;
-  /* Firefox (desktop or Android) 28- */
-  -moz-box-sizing: border-box;
-  /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
-  box-sizing: border-box; }
+	/* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
+	-webkit-box-sizing: border-box;
+	/* Firefox (desktop or Android) 28- */
+	-moz-box-sizing: border-box;
+	/* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
+	box-sizing: border-box; }
 
 /* line 34, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 img {
-  max-width: 100%; }
+	max-width: 100%; }
 
 /* line 38, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 [class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif; }
+	font-family: 'zocial', sans-serif; }
 
 /* line 41, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 [class*="brandico-"]:before {
-  font-family: 'brandico', sans-serif; }
+	font-family: 'brandico', sans-serif; }
 
 /* fontawesome */
 /* line 45, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 [class*="fontawesome-"]:before {
-  font-family: 'FontAwesome', sans-serif; }
+	font-family: 'FontAwesome', sans-serif; }
 
 /* line 49, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 body {
-  font-family: 'Crimson Text', serif; }
+	font-family: 'Crimson Text', serif; }
 
 /* line 55, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container .separator {
-  background-color: #443d3a;
-  height: 1px;
-  width: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8px; }
+	background-color: #443d3a;
+	height: 1px;
+	width: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px; }
 
 /* line 63, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container img {
-  width: 100%; }
+	width: 100%; }
 
 /* line 66, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container .who-i-am {
-  text-align: center; }
-  /* line 68, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .who-i-am #svg4607 {
-    position: absolute;
-    width: 40vw;
-    left: 30vw;
-    top: -6px; }
-  /* line 74, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .who-i-am .my-name-and-coe {
-    position: absolute;
-    width: 40vw;
-    left: 30vw;
-    color: white;
-    top: 66px; }
-    /* line 82, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .who-i-am .my-name-and-coe.h2 {
-      margin-top: 8px; }
+	text-align: center; }
+	/* line 68, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .who-i-am #svg4607 {
+		position: absolute;
+		width: 40vw;
+		left: 30vw;
+		top: -6px; }
+	/* line 74, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .who-i-am .my-name-and-coe {
+		position: absolute;
+		width: 40vw;
+		left: 30vw;
+		color: white;
+		top: 66px; }
+		/* line 82, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .who-i-am .my-name-and-coe.h2 {
+			margin-top: 8px; }
 
 /* line 87, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container .my-projects {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 25px; }
-  /* line 91, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .my-projects .text-in-section {
-    color: #595a5f;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: normal; }
-    /* line 97, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .my-projects .text-in-section .p {
-      margin-top: 2px;
-      margin-bottom: 2px; }
-      /* line 100, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-      .container .my-projects .text-in-section .p .links {
-        color: #bfa77a;
-        text-decoration: none; }
-        /* line 103, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-        .container .my-projects .text-in-section .p .links:hover {
-          text-decoration: underline; }
-  /* line 109, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .my-projects .descrip-and-projects {
-    color: #45474a; }
-  /* line 113, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .my-projects .projects-list .projects-images {
-    max-width: 372px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    -webkit-transition: -webkit-transform 0.5s;
-    -moz-transition: -moz-transform 0.5s;
-    -o-transition: -o-transform 0.5s;
-    transition: transform 0.5s; }
-    /* line 123, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .my-projects .projects-list .projects-images:hover {
-      -webkit-transform: scale(1.05);
-      -moz-transform: scale(1.05);
-      transform: scale(1.05); }
-      /* line 127, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-      .container .my-projects .projects-list .projects-images:hover .figcaption-img-project {
-        display: block; }
-    /* line 131, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .my-projects .projects-list .projects-images img {
-      border: solid 1px #352e2b;
-      max-width: 370px; }
-    /* line 135, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .my-projects .projects-list .projects-images .figcaption-img-project {
-      display: none;
-      background-color: rgba(76, 73, 72, 0.85);
-      color: white;
-      height: calc(100% - 6px);
-      left: 0px;
-      position: absolute;
-      top: 0px;
-      width: 100%; }
-      /* line 144, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-      .container .my-projects .projects-list .projects-images .figcaption-img-project .text-fig-caption {
-        position: relative;
-        top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 1.15em; }
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 25px; }
+	/* line 91, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .my-projects .text-in-section {
+		color: #595a5f;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+		font-weight: normal; }
+		/* line 97, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .my-projects .text-in-section .p {
+			margin-top: 2px;
+			margin-bottom: 2px; }
+			/* line 100, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+			.container .my-projects .text-in-section .p .links {
+				color: #bfa77a;
+				text-decoration: none; }
+				/* line 103, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+				.container .my-projects .text-in-section .p .links:hover {
+					text-decoration: underline; }
+	/* line 109, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .my-projects .descrip-and-projects {
+		color: #45474a; }
+	/* line 113, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .my-projects .projects-list .projects-images {
+		max-width: 372px;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		-webkit-transition: -webkit-transform 0.5s;
+		-moz-transition: -moz-transform 0.5s;
+		-o-transition: -o-transform 0.5s;
+		transition: transform 0.5s; }
+		/* line 123, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .my-projects .projects-list .projects-images:hover {
+			-webkit-transform: scale(1.05);
+			-moz-transform: scale(1.05);
+			transform: scale(1.05); }
+			/* line 127, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+			.container .my-projects .projects-list .projects-images:hover .figcaption-img-project {
+				display: block; }
+		/* line 131, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .my-projects .projects-list .projects-images img {
+			border: solid 1px #352e2b;
+			max-width: 370px; }
+		/* line 135, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .my-projects .projects-list .projects-images .figcaption-img-project {
+			display: none;
+			background-color: rgba(76, 73, 72, 0.85);
+			color: white;
+			height: calc(100% - 6px);
+			left: 0px;
+			position: absolute;
+			top: 0px;
+			width: 100%; }
+			/* line 144, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+			.container .my-projects .projects-list .projects-images .figcaption-img-project .text-fig-caption {
+				position: relative;
+				top: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				font-size: 1.15em; }
 
 /* line 156, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container .social-links {
-  background-color: #e88107;
-  text-align: center; }
-  /* line 159, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .social-links .text-4-social-links {
-    margin-top: -16px;
-    margin-bottom: 5px; }
-  /* line 163, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .container .social-links .social-icons {
-    cursor: pointer;
-    color: black;
-    margin: 20px; }
-    /* line 167, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .container .social-links .social-icons:hover {
-      color: red; }
+	background-color: #e88107;
+	text-align: center; }
+	/* line 159, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .social-links .text-4-social-links {
+		margin-top: -16px;
+		margin-bottom: 5px; }
+	/* line 163, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.container .social-links .social-icons {
+		cursor: pointer;
+		color: black;
+		margin: 20px; }
+		/* line 167, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.container .social-links .social-icons:hover {
+			color: red; }
 
 /* line 172, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
 .container .footer {
-  height: 50px;
-  background-color: #382d2d;
-  font-size: 0.85em;
-  color: #9a8d81;
-  display: -webkit-box;
-  /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;
-  /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;
-  /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  /* NEW - Chrome */
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+	height: 50px;
+	background-color: #382d2d;
+	font-size: 0.85em;
+	color: #9a8d81;
+	display: -webkit-box;
+	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;
+	/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;
+	/* TWEENER - IE 10 */
+	display: -webkit-flex;
+	/* NEW - Chrome */
+	display: flex;
+	align-items: center;
+	justify-content: center; }
 
 @media screen and (max-width: 480px) {
-  /* line 191, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.h2 {
-    font-size: 1.2em;
-    line-height: 19px; }
-  /* line 195, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.and-coe {
-    margin-top: 30px;
-    font-size: 0.95em;
-    line-height: 16px; }
-  /* line 203, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects.title {
-    font-size: 1.25em; }
-  /* line 206, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects .text-in-section {
-    font-size: 1.1em; } }
+	/* line 191, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.h2 {
+		font-size: 1.2em;
+		line-height: 19px; }
+	/* line 195, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.and-coe {
+		margin-top: 30px;
+		font-size: 0.95em;
+		line-height: 16px; }
+	/* line 203, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects.title {
+		font-size: 1.25em; }
+	/* line 206, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects .text-in-section {
+		font-size: 1.1em; } }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  /* line 221, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.h2 {
-    font-size: 1.3em; }
-  /* line 224, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.and-coe {
-    margin-top: 35px;
-    font-size: 1.05em;
-    line-height: 19px; }
-  /* line 232, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects.title {
-    font-size: 1.4em; }
-  /* line 235, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects .text-in-section {
-    font-size: 1.2em; } }
+	/* line 221, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.h2 {
+		font-size: 1.3em; }
+	/* line 224, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.and-coe {
+		margin-top: 35px;
+		font-size: 1.05em;
+		line-height: 19px; }
+	/* line 232, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects.title {
+		font-size: 1.4em; }
+	/* line 235, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects .text-in-section {
+		font-size: 1.2em; } }
 
 @media screen and (min-width: 769px) and (max-width: 1200px) {
-  /* line 249, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.h2 {
-    font-size: 1.5em; }
-  /* line 252, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.and-coe {
-    margin-top: 38px;
-    font-size: 1.25em;
-    line-height: 19px; }
-  /* line 260, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects.title {
-    font-size: 1.5em; }
-  /* line 263, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects .text-in-section {
-    font-size: 1.3em; } }
+	/* line 249, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.h2 {
+		font-size: 1.5em; }
+	/* line 252, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.and-coe {
+		margin-top: 38px;
+		font-size: 1.25em;
+		line-height: 19px; }
+	/* line 260, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects.title {
+		font-size: 1.5em; }
+	/* line 263, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects .text-in-section {
+		font-size: 1.3em; } }
 
 @media screen and (min-width: 1201px) {
-  /* line 277, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.h2 {
-    font-size: 1.9em; }
-  /* line 280, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .who-i-am .my-name-and-coe.and-coe {
-    margin-top: 55px;
-    font-size: 1.55em;
-    line-height: 19px; }
-  /* line 288, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects.title {
-    font-size: 1.65em; }
-  /* line 291, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .descrip-and-projects .text-in-section {
-    font-size: 1.4em; } }
+	/* line 277, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.h2 {
+		font-size: 1.9em; }
+	/* line 280, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.who-i-am .my-name-and-coe.and-coe {
+		margin-top: 55px;
+		font-size: 1.55em;
+		line-height: 19px; }
+	/* line 288, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects.title {
+		font-size: 1.65em; }
+	/* line 291, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.descrip-and-projects .text-in-section {
+		font-size: 1.4em; } }
 
 @media screen and (min-width: 800px) and (max-width: 1550px) {
-  /* line 304, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .projects-list .img-project-container1, .projects-list .img-project-container2 {
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;
-    /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Chrome */
-    display: flex;
-    justify-content: center; }
-    /* line 311, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .projects-list .img-project-container1 .projects-images, .projects-list .img-project-container2 .projects-images {
-      margin-left: 20px !important;
-      margin-right: 20px !important; } }
+	/* line 304, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.projects-list .img-project-container1, .projects-list .img-project-container2 {
+		display: -webkit-box;
+		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;
+		/* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;
+		/* TWEENER - IE 10 */
+		display: -webkit-flex;
+		/* NEW - Chrome */
+		display: flex;
+		justify-content: center; }
+		/* line 311, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.projects-list .img-project-container1 .projects-images, .projects-list .img-project-container2 .projects-images {
+			margin-left: 20px !important;
+			margin-right: 20px !important; } }
 
 @media screen and (min-width: 1551px) {
-  /* line 321, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-  .img-project-container {
-    display: -webkit-box;
-    /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;
-    /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;
-    /* TWEENER - IE 10 */
-    display: -webkit-flex;
-    /* NEW - Chrome */
-    display: flex;
-    justify-content: center; }
-    /* line 328, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-    .img-project-container .img-project-container1, .img-project-container .img-project-container2 {
-      display: inline-flex; }
-      /* line 330, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
-      .img-project-container .img-project-container1 .projects-images, .img-project-container .img-project-container2 .projects-images {
-        margin-left: 20px !important;
-        margin-right: 20px !important; } }
+	/* line 321, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+	.img-project-container {
+		display: -webkit-box;
+		/* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;
+		/* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;
+		/* TWEENER - IE 10 */
+		display: -webkit-flex;
+		/* NEW - Chrome */
+		display: flex;
+		justify-content: center; }
+		/* line 328, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+		.img-project-container .img-project-container1, .img-project-container .img-project-container2 {
+			display: inline-flex; }
+			/* line 330, C:/wamp/www/Udacity_FrontEnd1/projet3_buildAPortofolioSite/portofolio/css/main.scss */
+			.img-project-container .img-project-container1 .projects-images, .img-project-container .img-project-container2 .projects-images {
+				margin-left: 20px !important;
+				margin-right: 20px !important; } }
 
 /*# sourceMappingURL=main.css.map */
